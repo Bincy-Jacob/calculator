@@ -1,0 +1,10 @@
+.main{
+	background-color: royalblue;
+	display: flex;
+}
+.img{
+	flex: 1;
+}
+.para{
+	flex: 3;
+}

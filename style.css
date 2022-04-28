@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.calcu{
+	margin: auto;
+	width: 400px;
+	height: 600px;
+	background-color: #808080;
+	box-shadow: 2px 2px 5px 5px black;
+	padding: 20px;
+	margin-top: 50px;
+}
+.result{
+	margin: auto;
+	width: 380px;
+	height: 50px;
+	flex: 1;
+}
+.res{
+	width: 370px;
+	height: 50px;
+}
+.rfirst{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+button{
+	width: 80px;
+	height: 60px;
+	font-size: 23px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.btnc{
+	width: 120px;
+}
+.btna{
+	background-color: #CC3333;
+	color: white;
+}
+.btnw{
+	width: 130px;
+	background-color: #cc80ff;
+}
+.num{
+	background-color: #FF9999;
+}
+.opr{
+	background-color: #CCCC99;
+}
+
+@media screen and (max-width: 450px){
+.calcu{
+	width: 350px;
+}
+.res{
+	width: 340px;
+}
+
+}

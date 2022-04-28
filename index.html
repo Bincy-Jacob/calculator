@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calcu">
+		<div class="result"><input type="text" name="" class="res" id="res"></div>
+		<div class="rfirst">
+			<div class="btn"><button class="btna" value="AC" onclick="acfn()">AC</button></div>
+			<div class="btn"><button class="btnw" value="CLR" onclick="clr()">CLR</button></div>
+			<div class="btn"><button class="opr" value="+" onclick="valuedisp('+')">+</button></div>
+		</div>
+
+
+		<div class="rfirst">
+			<div class="btn"><button class="num" value="7" onclick="valuedisp('7')">7</button></div>
+			<div class="btn"><button class="num" value="8" onclick="valuedisp('8')">8</button></div>
+			<div class="btn"><button class="num" value="9" onclick="valuedisp('9')">9</button></div>
+			<div class="btn"><button class="opr" value="10" onclick="valuedisp('-')">-</button></div>
+		</div>
+
+
+
+		<div class="rfirst">
+			<div class="btn"><button class="num" onclick="valuedisp('4')">4</button></div>
+			<div class="btn"><button class="num" onclick="valuedisp('5')">5</button></div>
+			<div class="btn"><button class="num" onclick="valuedisp('6')">6</button></div>
+			<div class="btn"><button class="opr" onclick="valuedisp('*')">*</button></div>
+		</div>
+		<div class="rfirst">
+			<div class="btn"><button class="num" onclick="valuedisp('1')">1</button></div>
+			<div class="btn"><button class="num" onclick="valuedisp('2')">2</button></div>
+			<div class="btn"><button class="num" onclick="valuedisp('3')">3</button></div>
+			<div class="btn"><button class="opr" onclick="valuedisp('/')">/</button></div>
+		</div>
+		<div class="rfirst">
+			<div class="btn"><button class="num" onclick="valuedisp('0')">0</button></div>
+			<div class="btn"><button class="num" onclick="valuedisp('.')">.</button></div>
+			<div class="btnc"><button class="btnw" onclick="res()">=</button></div>
+		</div>
+	</div>
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
